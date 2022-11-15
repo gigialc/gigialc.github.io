@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Gigi Alcaraz Badia </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+ <script src="https://unpkg.com/scrollreveal"></script>
+        <script>ScrollReveal({duration: 1000,
+                         delay: 300,});</script>   
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+         <a href="gigiwebsite.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style="color:#FFC0CB">Home</a>
+      <a href="blogresume.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style="color:#FFC0CB">About Me</a>
+    <a href="aboutcv.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style="color:#FFC0CB">Blog</a>
+    <a href="resume.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style="color:#FFC0CB">Resume</a>
+    
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+       <a href="gigiwebsiste.html" class="w3-bar-item w3-button w3-padding-large" style="color:#FFC0CB" >Home</a>
+    <a href="aboutcv.html" class="w3-bar-item w3-button w3-padding-large" style="color:#FFC0CB" >About Me</a>
+    <a href="aboutcv.html" class="w3-bar-item w3-button w3-padding-large" style="color:#FFC0CB" >Blog</a>
+    <a href="resume.html" class="w3-bar-item w3-button w3-padding-large"style="color:#FFC0CB">Resume</a>
+    
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-center" style="padding:40px 20px; background-color: Black">
+  <h1 class="w3-margin w3-jumbo" style="color:#FFC0CB">Gigi Alcaraz Badia</h1>
+  <p class="w3-xlarge" style="color:#FFC0CB">Better than my resume</p>
+  <input type="button" onclick="location.href='https://forms.gle/QJ7hffYj3QykhbEo6';" value="Take our Survey" />
+ 
+</header>
+
+
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <img src="ProfilePic.JPG" alt="logo" width="300" height="400">
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Background</h1>
+      <h5 class="w3-padding-40">I was born in Barcelona, Spain in a bilingual household. I speak 4 different languages and have travelled all around the world.
+      I am very passionate about blockchain and the social impact it can have on communities. I do believe that we can use blockchain technology to create change and impact.
+  </h5>
+<h5 class="w3-padding-40"> I am currently working on my startup called SocialStock which aims to deepen the relationships between creators and users on social media through shared financial benefits and other incentives.
+  </h5>
+
+      <p class="w3-text-black"> I am currently studying Information Systems and Computer Science at Boston University as a second year international student. I am very involved with Entrepreneurship and Hackathons around Boston. </p>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+ <!--<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content w3-margin">
+   <!-- <div class="w3-third w3-center">
+      <img src="stakethestigmalogo.jpg" alt="logo" width="300" height="333">
+    </div> 
+
+    <div class="w3-twothird">
+      <h1>Get in Touch </h1>
+      <h5 class="w3-padding-32">It is time for women to have a place where they are comfortable to talk about their needs surrounding stigmatized topics and form a supporting community. We are developing an app that will create a safe space for women to talk about the sensitive topics that surround us, mainly regarding menstruation, contraception and abortion</h5>
+    </div>
+  </div> -->
+</div>
+
+
+
+
+<div class="w3-container w3-black w3-center w3-padding-30" >
+    <h1 class="w3-margin w3-xlarge" style="color:pink">Quote of the day: Be proud to be you</h1>
+</div>
+
+
+<footer class="w3-container w3-padding-20 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    
+ </div>
+	<p>Copyright &copy; by Georgina Alcaraz</p>  
+        <p class="links" >Send me an <a href="mailto:galcaraz@bu.edu">Email</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

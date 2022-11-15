@@ -1,0 +1,95 @@
+*{margin: 0;
+   box-sizing: border-box;}
+   
+.matchafoto{
+  		text-align: center;
+  		font-size: calc(1px + 0.5vw);
+  		padding: 3vw 0;
+  		
+}
+.matchafoto img{max-width: 300px;
+
+}
+li.menu{
+	text-decoration: none;
+	background-color: pink;
+	list-style-type: none;
+	padding: 4vw 0;
+	height: 100%;
+	color: pink;
+}
+
+header{ padding: 5% 5% 5% 5%;
+		text-align: center;
+		background-color: white;
+		color: black;
+		
+	
+}
+/*The .nav makes sure that the following properties are only added to the navigation list */
+
+.media{ align-items: center;
+	display:flex; 
+	justify-content:center;
+	
+	}
+
+
+table{
+	text-align: center;
+}
+
+	
+/*Here is code responsible for two column layout */
+a.menu{ 
+	text-decoration: none;
+	color: black;
+	padding: 0% 100% 0% 0%;
+
+	color: black;
+	font-size: 3vw;
+	float: left;
+	width: 25%;
+	height: 100%;
+
+}
+
+.main-content{
+
+	font-size: 1.65vw;
+	box-sizing: border-box;
+	width: 65%;
+	background-color: #f1f1f1;
+	float: left;
+	padding: 5vw 10vW;
+	
+	}
+
+footer{
+	text-align: center;
+	background-color: #f1f1f1;
+	color: black;
+	padding:2%;
+	width: 100%; 
+	clear: both;
+}
+nav.menu1{
+	background-color: #f1f1f1;
+	float: right;
+	width: 35%;
+	list-style-type: none;
+	padding: 43vw 5vw 10vw 0;
+	height: 100%;
+}
+.container{
+	box-sizing: border-box;
+	float: right;
+	background-color: #f1f1f1; 
+	
+
+}
+
+img { 
+width: 75%;
+}
+	
